@@ -1,0 +1,8 @@
+com\helalubo\web\PersonaServlet.class
+com\helalubo\mook\persona\domain\Persona.class
+com\helalubo\mook\persona\application\services\PersonaServiceImpl.class
+com\helalubo\mook\persona\infrastructrure\repositories\PersonaDao.class
+com\helalubo\mook\persona\application\remoteServices\PersonaServiceRemote.class
+com\helalubo\mook\persona\infrastructrure\PersonaDaoImpl.class
+test\ClienteEntidadPersona.class
+com\helalubo\mook\persona\application\services\PersonaService.class
