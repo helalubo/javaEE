@@ -1,0 +1,5 @@
+package com.helalubo.mook.cuenta.exceptions;
+
+public class DineroInsuficienteException extends Exception {
+
+}

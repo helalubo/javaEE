@@ -1,0 +1,5 @@
+package com.helalubo.mook.cuenta.model;
+
+public class Cuenta {
+
+}

@@ -1,0 +1,19 @@
+package com.helalubo.mook.laboratorios.model;
+
+
+
+public class Laboratorio {
+
+    Integer cdg_laboratorio;
+    String sicla_laboratorio;
+    String des_laboratorio;
+    String email;
+    String sexo;
+    String trabajo;
+    String pais;
+    String ciudad;
+    Integer edad;
+
+
+
+}

@@ -1,0 +1,6 @@
+--crear carpeta interna de mook
+parado en carpeta mook
+mkdir cuenta ;
+mkdir cuenta/application;
+mkdir cuenta/model;
+mkdir cuenta/infrastructure;

@@ -1,0 +1,15 @@
+package com.helalubo.mook.banco.model;
+
+import org.junit.jupiter.api.Test;
+
+import com.helalubo.mook.cuenta.model.Cuenta;
+
+public class BancoTest {
+
+	
+	@Test
+	void testTransferirDineroCuentas() {
+		Cuenta cuenta1 = new Cuenta("helalubo","700000");
+		Cuenta cuenta2 = new Cuenta("helalubo","700000");
+	}
+}

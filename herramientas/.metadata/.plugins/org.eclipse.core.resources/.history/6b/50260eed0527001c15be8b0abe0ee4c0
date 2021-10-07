@@ -1,0 +1,20 @@
+package com.helalubo.mook.laboratorios.model;
+
+
+
+public class Laboratorio {
+
+    Integer cdg_laboratorio;
+    String sicla_laboratorio;
+    String des_laboratorio;
+    String abrev_laboratorio;
+    String pais;
+    Integer nivel_lab;
+    Integer cdg_jerarquia;
+    String significativo;
+    String importancia;
+    Integer importancia;
+
+
+
+}

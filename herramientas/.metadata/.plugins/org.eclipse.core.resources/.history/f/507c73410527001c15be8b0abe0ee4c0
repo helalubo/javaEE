@@ -1,0 +1,177 @@
+package com.helalubo.mook.laboratorios.model;
+
+import java.util.Objects;
+
+public class Laboratorio {
+
+    Integer cdg_laboratorio;
+    String sicla_laboratorio;
+    String des_laboratorio;
+    String email;
+    String sexo;
+    String trabajo;
+    String pais;
+    String ciudad;
+    Integer edad;
+
+    public Laboratorio() {
+    }
+
+    public Laboratorio(Integer id, String nombre, String apellido, String email, String sexo, String trabajo, String pais,
+            String ciudad, Integer edad) {
+        this.cdg_laboratorio = id;
+        this.sicla_laboratorio = nombre;
+        this.cdg_laboratorio = apellido;
+        this.email = email;
+        this.sexo = sexo;
+        this.trabajo = trabajo;
+        this.pais = pais;
+        this.ciudad = ciudad;
+        this.edad = edad;
+    }
+
+    public Integer getDes_laboratorio() {
+        return this.cdg_laboratorio;
+    }
+
+    public void setCdg_laboratorio(Integer id) {
+        this.cdg_laboratorio = id;
+    }
+
+    public String getSicla_laboratorio() {
+        return this.sicla_laboratorio;
+    }
+
+    public void setSicla_laboratorio(String nombre) {
+        this.sicla_laboratorio = nombre;
+    }
+
+    public String getDes_laboratorio() {
+        return this.cdg_laboratorio;
+    }
+
+    public void setDes_laboratorio(String apellido) {
+        this.cdg_laboratorio = apellido;
+    }
+
+    public String getEmail() {
+        return this.email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getSexo() {
+        return this.sexo;
+    }
+
+    public void setSexo(String sexo) {
+        this.sexo = sexo;
+    }
+
+    public String getTrabajo() {
+        return this.trabajo;
+    }
+
+    public void setTrabajo(String trabajo) {
+        this.trabajo = trabajo;
+    }
+
+    public String getPais() {
+        return this.pais;
+    }
+
+    public void setPais(String pais) {
+        this.pais = pais;
+    }
+
+    public String getCiudad() {
+        return this.ciudad;
+    }
+
+    public void setCiudad(String ciudad) {
+        this.ciudad = ciudad;
+    }
+
+    public Integer getEdad() {
+        return this.edad;
+    }
+
+    public void setEdad(Integer edad) {
+        this.edad = edad;
+    }
+
+    public Person id(Integer id) {
+        setCdg_laboratorio(id);
+        return this;
+    }
+
+    public Person nombre(String nombre) {
+        setSicla_laboratorio(nombre);
+        return this;
+    }
+
+    public Person apellido(String apellido) {
+        setDes_laboratorio(apellido);
+        return this;
+    }
+
+    public Person email(String email) {
+        setEmail(email);
+        return this;
+    }
+
+    public Person sexo(String sexo) {
+        setSexo(sexo);
+        return this;
+    }
+
+    public Person trabajo(String trabajo) {
+        setTrabajo(trabajo);
+        return this;
+    }
+
+    public Person pais(String pais) {
+        setPais(pais);
+        return this;
+    }
+
+    public Person ciudad(String ciudad) {
+        setCiudad(ciudad);
+        return this;
+    }
+
+    public Person edad(Integer edad) {
+        setEdad(edad);
+        return this;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (o == this)
+            return true;
+        if (!(o instanceof Person)) {
+            return false;
+        }
+        Person person = (Person) o;
+        return Objects.equals(cdg_laboratorio, person.id) && Objects.equals(sicla_laboratorio, person.nombre)
+                && Objects.equals(cdg_laboratorio, person.apellido) && Objects.equals(email, person.email)
+                && Objects.equals(sexo, person.sexo) && Objects.equals(trabajo, person.trabajo)
+                && Objects.equals(pais, person.pais) && Objects.equals(ciudad, person.ciudad)
+                && Objects.equals(edad, person.edad);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(cdg_laboratorio, sicla_laboratorio, cdg_laboratorio, email, sexo, trabajo, pais, ciudad, edad);
+    }
+
+    @Override
+    public String toString() {
+        return "{" + " id='" + getDes_laboratorio() + "'" + ", nombre='" + getSicla_laboratorio() + "'" + ", apellido='" + getDes_laboratorio() + "'"
+                + ", email='" + getEmail() + "'" + ", sexo='" + getSexo() + "'" + ", trabajo='" + getTrabajo() + "'"
+                + ", pais='" + getPais() + "'" + ", ciudad='" + getCiudad() + "'" + ", edad='" + getEdad() + "'" + "}";
+    }
+
+}
