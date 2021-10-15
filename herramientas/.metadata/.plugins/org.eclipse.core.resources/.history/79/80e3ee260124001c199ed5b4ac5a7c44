@@ -1,0 +1,11 @@
+package com.helalubo.mook.cuenta.model;
+
+import org.junit.jupiter.api.Test;
+
+public class CuentaTest {
+
+	@Test	
+	void test() {
+		
+	}
+}

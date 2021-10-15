@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BancoTest" project="junit_app" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.helalubo.mook.banco.model.BancoTest" time="0.023" displayname="BancoTest" uniqueid="[engine:junit-jupiter]/[class:com.helalubo.mook.banco.model.BancoTest]">
+    <testcase name="testTransferirDineroCuentas" classname="com.helalubo.mook.banco.model.BancoTest" time="0.017" displayname="testTransferirDineroCuentas()" uniqueid="[engine:junit-jupiter]/[class:com.helalubo.mook.banco.model.BancoTest]/[method:testTransferirDineroCuentas()]"/>
+    <testcase name="testRelacionBancoCuentas" classname="com.helalubo.mook.banco.model.BancoTest" time="0.006" displayname="testRelacionBancoCuentas()" uniqueid="[engine:junit-jupiter]/[class:com.helalubo.mook.banco.model.BancoTest]/[method:testRelacionBancoCuentas()]"/>
+  </testsuite>
+</testrun>

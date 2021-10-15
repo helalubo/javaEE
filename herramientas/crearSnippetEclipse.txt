@@ -1,0 +1,2 @@
+--Esquina superior derecha -> Quick Acces ->esquina inferior derederecha ->Quick
+en barra de busqueda voy a create a new template

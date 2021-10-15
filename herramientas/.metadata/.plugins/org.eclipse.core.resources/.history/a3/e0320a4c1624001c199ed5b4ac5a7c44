@@ -1,0 +1,10 @@
+package com.helalubo.mook.banco.model;
+
+public class BancoTest {
+
+	
+	@Test
+	void testTransferirDineroCuentas() {
+
+	}
+}
