@@ -1,9 +1,0 @@
-package com.helalubo.mook.cuenta.model;
-
-public class CuentaTest {
-
-	@Test
-	void test() {
-		
-	}
-}

@@ -1,8 +1,0 @@
-com\helalubo\sga\mook\persona\application\remoteServices\PersonaServiceRemote.class
-com\helalubo\sga\mook\persona\infrastructrure\repositories\PersonaDao.class
-com\helalubo\sga\mook\persona\application\services\PersonaService.class
-com\helalubo\sga\mook\persona\domain\Persona.class
-test\ClienteEntidadPersona.class
-com\helalubo\sga\mook\persona\application\services\PersonaServiceImpl.class
-com\helalubo\sga\web\PersonaServlet.class
-com\helalubo\sga\mook\persona\infrastructrure\PersonaDaoImpl.class

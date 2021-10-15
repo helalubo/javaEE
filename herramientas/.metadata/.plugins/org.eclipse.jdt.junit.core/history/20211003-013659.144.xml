@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="CuentaTest" project="junit_app" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="com.helalubo.mook.cuenta.model.CuentaTest" time="0.024" displayname="CuentaTest" uniqueid="[engine:junit-jupiter]/[class:com.helalubo.mook.cuenta.model.CuentaTest]">
-    <testcase name="testSaldoCliente" classname="com.helalubo.mook.cuenta.model.CuentaTest" time="0.017" displayname="testSaldoCliente()" uniqueid="[engine:junit-jupiter]/[class:com.helalubo.mook.cuenta.model.CuentaTest]/[method:testSaldoCliente()]"/>
-    <testcase name="testNombreCuenta" classname="com.helalubo.mook.cuenta.model.CuentaTest" time="0.007" displayname="testNombreCuenta()" uniqueid="[engine:junit-jupiter]/[class:com.helalubo.mook.cuenta.model.CuentaTest]/[method:testNombreCuenta()]"/>
-  </testsuite>
-</testrun>
